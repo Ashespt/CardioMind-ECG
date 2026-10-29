@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+outputs/
+data/*
+!data/README.md
+models/C1/*.safetensors
+models/C1/*.bin

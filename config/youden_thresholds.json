@@ -1,0 +1,35 @@
+{
+  "labels": [
+    "normal ECG",
+    "ST/T change",
+    "others",
+    "atrial arrhythmia",
+    "intraventricular block",
+    "myocardial infarction",
+    "ventricular arrhythmia",
+    "ventricular hypertrophy",
+    "conduction disturbance",
+    "atrial enlargement",
+    "junctional arrhythmia",
+    "QT interval abnormality",
+    "ventricular preexcitation"
+  ],
+  "thresholds": [
+    0.2800000011920929,
+    0.38999998569488525,
+    0.33000001311302185,
+    0.1599999964237213,
+    0.18000000715255737,
+    0.15000000596046448,
+    0.09000000357627869,
+    0.11999999731779099,
+    0.10999999940395355,
+    0.3199999928474426,
+    0.20000000298023224,
+    0.30000001192092896,
+    0.17000000178813934
+  ],
+  "source": "selected_on_original_validation_for_per_class_max_youden",
+  "tie_break": "higher sensitivity, then specificity, then lower threshold",
+  "projection": "Original C1 outputs excluding SR; no recalibration"
+}

@@ -1,0 +1,14 @@
+Analyze this 12-lead ECG image. Return one strict JSON object with:
+- level1_label_ids: all applicable IDs in ascending order
+- level1_labels: the corresponding labels
+- level3_labels_en: concise English ECG findings
+- report_target_en: a concise English ECG report, or null when no reliable report is available
+
+Allowed level-1 labels:
+0 sinus rhythm; 1 normal ECG; 2 ST/T change; 3 others; 4 atrial arrhythmia;
+5 intraventricular block; 6 myocardial infarction; 7 ventricular arrhythmia;
+8 ventricular hypertrophy; 9 conduction disturbance; 10 atrial enlargement;
+11 junctional arrhythmia; 12 QT interval abnormality; 13 ventricular preexcitation.
+The tool outputs below are fallible candidate evidence. Adjudicate them against the ECG image,
+resolve disagreements, and do not copy unsupported tool claims.
+Return JSON only.

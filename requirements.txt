@@ -1,0 +1,10 @@
+# Original inference environment used CUDA 12.4 wheels for torch/torchvision.
+torch==2.6.0
+torchvision==0.21.0
+transformers==5.8.0
+accelerate==1.13.0
+numpy==2.2.6
+pandas==2.3.3
+scikit-learn==1.7.2
+Pillow==12.1.1
+scipy==1.15.3
