@@ -1,4 +1,5 @@
-# CardioMind: Zhongshan 13-class inference
+# CardioMind
+## Zhongshan 13-class inference
 
 Output classes: `NORM, STTC, O, AA, IVB, MI, VA, VH, CD, AE, JA, QTIA, VP`. 
 
